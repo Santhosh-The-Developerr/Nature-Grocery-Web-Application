@@ -36,32 +36,32 @@
 
 ## Key Features
 
---> User Authentication (JWT with MongoDB)  
---> Add to Cart & Buy Now  
---> Categorized Product Browsing  
---> Scroll & Section-Based Animations  
---> EmailJS-powered Contact Form  
---> Responsive Mobile View  
---> Google Maps Embed for Location  
---> Toast Notifications  
---> Secure Order Placement via API
+- User Authentication (JWT with MongoDB)  
+- Add to Cart & Buy Now  
+- Categorized Product Browsing  
+- Scroll & Section-Based Animations  
+- EmailJS-powered Contact Form  
+- Responsive Mobile View  
+- Google Maps Embed for Location  
+- Toast Notifications  
+- Secure Order Placement via API
 
 ---
 
 ## Tech Stack
 
 ### Frontend
---> React.js (Functional Components + Hooks)
---> Tailwind CSS (For fast and flexible UI design)
---> React Icons
---> EmailJS (Contact form submissions)
---> Intersection Observer (for scroll animations)
---> Local Storage (User session handling)
+- React.js (Functional Components + Hooks)
+- Tailwind CSS (For fast and flexible UI design)
+- React Icons
+- EmailJS (Contact form submissions)
+- Intersection Observer (for scroll animations)
+- Local Storage (User session handling)
 
 ### Backend
---> PyMongo (MongoDB integration)
---> JWT Authentication (Login & Register)
---> RESTful API architecture
+- PyMongo (MongoDB integration)
+- JWT Authentication (Login & Register)
+- RESTful API architecture
 
 ### Database
 - MongoDB (Atlas Cloud / Local)
@@ -199,10 +199,10 @@ ref.current.classList.add('flip-bounce');
 
 ## Upcoming Features
 
---> AI Material Recommendation (for building sector)
---> Cart Quantity Editing
---> Admin Dashboard
---> Payment Gateway Integration
+- AI Material Recommendation (for building sector)
+- Cart Quantity Editing
+- Admin Dashboard
+- Payment Gateway Integration
 
 ---
 
