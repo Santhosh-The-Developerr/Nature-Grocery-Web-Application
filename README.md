@@ -25,12 +25,12 @@
 
 **NatureGrocery** is a modern e-commerce-style grocery web app offering a smooth user experience for both desktop and mobile users. The platform enables:
 
---> Browsing and filtering groceries (Vegetables, Fruits, Snacks, etc.)
---> Adding to cart
---> Buying instantly (Buy Now)
---> Contacting support
---> Reading about the brand’s mission
---> Animations triggered on scroll or section focus
+- Browsing and filtering groceries (Vegetables, Fruits, Snacks, etc.)
+- Adding to cart
+- Buying instantly (Buy Now)
+- Contacting support
+- Reading about the brand’s mission
+- Animations triggered on scroll or section focus
 
 ---
 
