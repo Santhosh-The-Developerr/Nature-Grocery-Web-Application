@@ -1,69 +1,69 @@
-# 🛒 NatureGrocery - Full Stack Grocery Shopping Web App
+# NatureGrocery - Full Stack Grocery Shopping Web App
 
 **NatureGrocery** is a comprehensive full-stack grocery shopping website built using **React.js**, **Tailwind CSS**, and **MongoDB**. It offers users a smooth, mobile-friendly interface to explore categories, add items to a cart, and place orders with ease.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
-- [📖 Overview](#-overview)
-- [🌟 Key Features](#-key-features)
-- [🧠 Tech Stack](#-tech-stack)
-- [📦 Installation](#-installation)
-- [📁 Project Structure](#-project-structure)
-- [📜 API & Environment Setup](#-api--environment-setup)
-- [🧩 Custom Animations](#-custom-animations)
-- [🖼️ Screenshots](#-screenshots)
-- [📌 Upcoming Features](#-upcoming-features)
-- [🙌 Contribution](#-contribution)
-- [🪪 License](#-license)
-- [📬 Contact](#-contact)
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [API & Environment Setup](#-api--environment-setup)
+- [Custom Animations](#-custom-animations)
+- [Screenshots](#-screenshots)
+- [Upcoming Features](#-upcoming-features)
+- [Contribution](#-contribution)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
-## 📖 Overview
+## Overview
 
 **NatureGrocery** is a modern e-commerce-style grocery web app offering a smooth user experience for both desktop and mobile users. The platform enables:
 
-- Browsing and filtering groceries (Vegetables, Fruits, Snacks, etc.)
-- Adding to cart
-- Buying instantly (Buy Now)
-- Contacting support
-- Reading about the brand’s mission
-- Animations triggered on scroll or section focus
+--> Browsing and filtering groceries (Vegetables, Fruits, Snacks, etc.)
+--> Adding to cart
+--> Buying instantly (Buy Now)
+--> Contacting support
+--> Reading about the brand’s mission
+--> Animations triggered on scroll or section focus
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-✅ User Authentication (JWT with MongoDB)  
-✅ Add to Cart & Buy Now  
-✅ Categorized Product Browsing  
-✅ Scroll & Section-Based Animations  
-✅ EmailJS-powered Contact Form  
-✅ Responsive Mobile View  
-✅ Google Maps Embed for Location  
-✅ Toast Notifications  
-✅ Secure Order Placement via API
+--> User Authentication (JWT with MongoDB)  
+--> Add to Cart & Buy Now  
+--> Categorized Product Browsing  
+--> Scroll & Section-Based Animations  
+--> EmailJS-powered Contact Form  
+--> Responsive Mobile View  
+--> Google Maps Embed for Location  
+--> Toast Notifications  
+--> Secure Order Placement via API
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
-### 🖥 Frontend
-- React.js (Functional Components + Hooks)
-- Tailwind CSS (For fast and flexible UI design)
-- React Icons
-- EmailJS (Contact form submissions)
-- Intersection Observer (for scroll animations)
-- Local Storage (User session handling)
+### Frontend
+--> React.js (Functional Components + Hooks)
+--> Tailwind CSS (For fast and flexible UI design)
+--> React Icons
+--> EmailJS (Contact form submissions)
+--> Intersection Observer (for scroll animations)
+--> Local Storage (User session handling)
 
-### 🧰 Backend
-- PyMongo (MongoDB integration)
-- JWT Authentication (Login & Register)
-- RESTful API architecture
+### Backend
+--> PyMongo (MongoDB integration)
+--> JWT Authentication (Login & Register)
+--> RESTful API architecture
 
-### 🗃️ Database
+### Database
 - MongoDB (Atlas Cloud / Local)
 - Collections:
   - `users`
@@ -72,23 +72,23 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
-### ⚙️ 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/NatureGrocery.git
 cd NatureGrocery
 ```
 
-### 📁 2. Frontend Setup (React)
+### 2. Frontend Setup (React)
 
 ```bash
 cd client
 npm install
 ```
 
-#### ✅ Frontend Dependencies
+#### Frontend Dependencies
 
 - `react`
 - `react-dom`
@@ -103,7 +103,7 @@ npm install
 npm start
 ```
 
-### 🔙 3. Backend Setup (Flask)
+### 3. Backend Setup (Flask)
 
 ```bash
 cd ../backend
@@ -112,7 +112,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-#### ✅ Backend Libraries
+#### Backend Libraries
 
 - `PyMongo`
 - `python-dotenv`
@@ -127,7 +127,7 @@ python app.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 NatureGrocery/
@@ -152,9 +152,9 @@ NatureGrocery/
 
 ---
 
-## 📜 API & Environment Setup
+## API & Environment Setup
 
-### 🌐 Sample `.env` file
+### Sample `.env` file
 
 ```bash
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/NatureGrocery
@@ -163,7 +163,7 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
 ```
 
-### 🛣️ API Endpoints
+### API Endpoints
 
 | Method | Endpoint                     | Description            |
 |--------|------------------------------|------------------------|
@@ -174,9 +174,9 @@ EMAIL_PASS=your_email_password
 
 ---
 
-## 🧩 Custom Animations
+## Custom Animations
 
-### 🧠 `useFlipZoomAnimation` Hook
+### `useFlipZoomAnimation` Hook
 
 This hook uses `IntersectionObserver` to detect when the product section or any component comes into view, applying a unique animation like "flip", "zoom", or "bounce".
 
@@ -189,7 +189,7 @@ ref.current.classList.add('flip-bounce');
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 | Home Screen | Contact Section |
 |-------------|------------------|
@@ -197,16 +197,16 @@ ref.current.classList.add('flip-bounce');
 
 ---
 
-## 📌 Upcoming Features
+## Upcoming Features
 
-- AI Material Recommendation (for building sector)
-- Cart Quantity Editing
-- Admin Dashboard
-- Payment Gateway Integration
+--> AI Material Recommendation (for building sector)
+--> Cart Quantity Editing
+--> Admin Dashboard
+--> Payment Gateway Integration
 
 ---
 
-## 🙌 Contribution
+## Contribution
 
 1. Fork the repo  
 2. Create a feature branch  
@@ -216,13 +216,13 @@ ref.current.classList.add('flip-bounce');
 
 ---
 
-## 🪪 License
+## License
 
 Licensed under the **MIT License**.
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Santhosh Kumar**  
 📧 support@naturegrocery.com  
